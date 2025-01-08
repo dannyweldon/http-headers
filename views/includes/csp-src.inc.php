@@ -13,6 +13,8 @@ $origins = array(
     'mediastream' => 'mediastream:',
     'blob' => 'blob:',
     'filesystem' => 'filesystem:',
+    'ws' => 'ws:',
+    'wss' => 'wss:',
 );
  
 foreach ($origins as $k => $origin)
